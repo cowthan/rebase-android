@@ -1,0 +1,43 @@
+<!--
+  ~ Copyright (C) 2017 Drakeet <drakeet.me@gmail.com>
+  ~
+  ~ This file is part of rebase-android
+  ~
+  ~ rebase-android is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ rebase-android is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~
+  ~ See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with rebase-android. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <!--standard metrics-->
+    <dimen name="normal_view_space">12dp</dimen>
+    <dimen name="fab_margin_right">16dp</dimen>
+    <dimen name="fab_margin_bottom">16dp</dimen>
+
+    <dimen name="item_radius">4dp</dimen>
+    <dimen name="list_view_space">16dp</dimen>
+    <dimen name="list_view_space_right">15dp</dimen>
+    <dimen name="list_view_space_top">14dp</dimen>
+
+    <dimen name="tab_height">42dp</dimen>
+    <dimen name="page_margin">10dp</dimen>
+
+    <dimen name="slider_padding">16dp</dimen>
+    <dimen name="slider_margin">18dp</dimen>
+    <dimen name="category_margin_horizontal">22dp</dimen>
+    <dimen name="category_height">57dp</dimen>
+    <dimen name="main_logo_size">36dp</dimen>
+    <dimen name="article_icon_size">24dp</dimen>
+
+</resources>

@@ -1,0 +1,142 @@
+<!--
+  ~ Copyright (C) 2017 Drakeet <drakeet.me@gmail.com>
+  ~
+  ~ This file is part of rebase-android
+  ~
+  ~ rebase-android is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ rebase-android is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~
+  ~ See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with rebase-android. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="SpUsage">
+
+    <style name="Rebase"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:windowLightStatusBar"
+            tools:targetApi="m">true
+        </item>
+    </style>
+
+    <style name="Rebase.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Rebase.About">
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="Rebase.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Rebase.AppBarOverlay"
+        parent="Theme.AppCompat.Light"/>
+
+    <style name="Widget.Rebase"
+        parent="android:Widget"/>
+
+    <style name="Widget.Rebase.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_alignBottom">@id/content</item>
+        <item name="android:background">#E5E0E0</item>
+    </style>
+
+    <style name="Widget.Rebase.WhiteCard">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage"/>
+
+    <style name="MainPage.WhiteCard"
+        parent="Widget.Rebase.WhiteCard"/>
+
+    <style name="Widget.Rebase.MainPage.Title">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.CategoryTitle">
+        <item name="android:layout_marginStart">@dimen/category_margin_horizontal</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.CategoryShowMore">
+        <item name="android:paddingStart">@dimen/category_margin_horizontal</item>
+        <item name="android:paddingEnd">@dimen/category_margin_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#EC4B61</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.Logo">
+        <item name="android:layout_width">@dimen/main_logo_size</item>
+        <item name="android:layout_height">@dimen/main_logo_size</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.NormalTab">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.FAB">
+        <item name="android:layout_marginEnd">@dimen/fab_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin_bottom</item>
+        <item name="android:clickable">true</item>
+        <item name="android:elevation"
+            tools:targetApi="lollipop">4dp
+        </item>
+        <item name="elevation">4dp</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <style name="Widget.Rebase.FeedIcon">
+        <item name="android:layout_margin">@dimen/normal_view_space</item>
+    </style>
+
+    <style name="Widget.Rebase.CategoryName">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">@color/textColorPrimaryHint</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Widget.Rebase.FeedTime"
+        parent="Widget.Rebase.CategoryName">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <style name="Widget.Rebase.FeedTitle">
+        <item name="android:layout_marginEnd">@dimen/normal_view_space</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">12</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+</resources>

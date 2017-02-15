@@ -1,0 +1,5 @@
+include ':app'
+include ':api'
+include ':web'
+
+// project(':about').projectDir = new File(rootProject.projectDir, '../about-page/library')

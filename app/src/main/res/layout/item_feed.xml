@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Drakeet <drakeet.me@gmail.com>
+  ~
+  ~ This file is part of rebase-android
+  ~
+  ~ rebase-android is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ rebase-android is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~
+  ~ See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with rebase-android. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        style="@style/Widget.Rebase.FeedIcon"
+        android:id="@id/icon"
+        android:layout_width="@dimen/article_icon_size"
+        android:layout_height="@dimen/article_icon_size"
+        tools:src="@android:color/black"/>
+
+    <TextView
+        style="@style/Widget.Rebase.CategoryName"
+        android:id="@id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon"
+        android:layout_alignTop="@id/icon"
+        android:layout_alignBottom="@id/icon"
+        tools:text="利器"/>
+
+    <TextView
+        style="@style/Widget.Rebase.FeedTime"
+        android:id="@id/published_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/category_name"
+        android:layout_alignBottom="@id/category_name"
+        android:layout_toEndOf="@id/category_name"
+        tools:text="1 小时前"/>
+
+    <TextView
+        style="@style/Widget.Rebase.FeedTitle"
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_name"
+        android:layout_alignStart="@id/category_name"
+        tools:text="清空垃圾邮件后，他们用邮箱订阅了这些有用的服务"/>
+
+    <!-- v7 DividerItemDecoration 是个坑爹货 -->
+
+    <View style="@style/Widget.Rebase.Divider"/>
+
+</RelativeLayout>
