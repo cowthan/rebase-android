@@ -4,6 +4,12 @@
 
 注：本项目还没正式公开或发布，仍然处于建设中。
 
+## 结构
+
+Rebase 采用了极简而精巧的结构、包设计，令每个人都能轻易参与和阅读。采用 `api` / `app` / `web` 三层结构：
+
+![api module](art/api.png) ![app module](art/app.png)
+
 ### How to Contribute
 
 Just use the **DrakeetAndroid([drakeet_style.zip](code_style.zip))** to keep the code style consistent.
