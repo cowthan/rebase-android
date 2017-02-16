@@ -1,4 +1,4 @@
-# Rebase Android
+# Rebase Android ![](https://circleci.com/gh/drakeet/rebase-android.svg?&style=shield&circle-token=ac8640c37e3a5b40715b9f2f0017db9362316066)
 
 ![](app/src/main/res/drawable-nodpi/ic_rebase_flat_w192.png)
 
