@@ -8,7 +8,7 @@
 
 Rebase 采用了极简而精巧的结构、包设计，令每个人都能轻易参与和阅读。采用 `api` / `app` / `web` 三层结构：
 
-![api module](art/api.png) ![app module](art/app.png)
+<img src="art/api.png" width=400 height=432/><img src="art/app.png" width=400 height=524/>
 
 ### How to Contribute
 
