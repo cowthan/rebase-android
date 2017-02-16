@@ -40,6 +40,24 @@ Rebase 采用了极简而精巧的结构、包设计，令每个人都能轻易�
 - APK 体积极小，只有 1MB 左右
 - 优雅的事件统计打点方式
 
+## 关于 Rebase
+
+有一天我在某某朋友圈里说过要开发这么一个项目，它的定位就是移动客户端级别的 WordPress.
+
+WordPress 是一款自由开源的博客软件和内容管理系统，它帮助无数人在网页端开发和搭建自己的网站，我的个人网站 https://drakeet.me 也正是采用 WordPress 搭建，这是一个伟大的产品。
+
+而我们要做的就是将它的理念复刻到手机上，实现人人可以快速创建私人博客 App 并与世界相连，我给它取名叫 Rebase.
+
+当有一天我决定再也不看、不发某某朋友圈了，Rebase 的想法便更加急切在我脑袋中萦绕，直到它现在呈现在你面前。
+
+这个应用程序是 Rebase 项目的客户端之一，它是完全开源的，包括客户端源代码、服务端源代码，以及即将开源的 Sketch 设计稿源文件，如果你很喜欢它，就加入进来吧！
+
+Telegram Group: https://t.me/joinchat/AAAAAAnT8ampUz4vZFw0SQ
+
+## 关于 日常
+
+日常 是一款由 drakeet 负责推荐和分享各种好玩新鲜的栏目应用，基于 Rebase 服务。
+
 ## How to Contribute
 
 请使用 **DrakeetAndroid([drakeet_style.zip](code_style.zip))** 代码风格配置文件，以保持统一。提交 Pull Request 请确保你的格式没有任何问题，包括该有的各种空格。
