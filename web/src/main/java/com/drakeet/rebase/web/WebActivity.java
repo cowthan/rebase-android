@@ -59,6 +59,7 @@ public class WebActivity extends ToolbarActivity
 
     String url, title;
     int positionHolder;
+    boolean overrideTitleEnabled = true;
 
 
     /**
@@ -123,6 +124,11 @@ public class WebActivity extends ToolbarActivity
         textSwitcher.setInAnimation(this, android.R.anim.fade_in);
         textSwitcher.setOutAnimation(this, android.R.anim.fade_out);
         if (title != null) setTitle(title);
+    }
+
+
+    public void setOverrideTitleEnabled(boolean enabled) {
+        this.overrideTitleEnabled = enabled;
     }
 
 
@@ -221,7 +227,9 @@ public class WebActivity extends ToolbarActivity
 
         @Override public void onReceivedTitle(WebView view, String title) {
             super.onReceivedTitle(view, title);
-            setTitle(title);
+            if (overrideTitleEnabled) {
+                setTitle(title);
+            }
         }
     }
 

@@ -54,6 +54,7 @@ public class FeedBrowserActivity extends WebActivity {
         super.onCreate(savedInstanceState);
         feedId = getIntent().getStringExtra(EXTRA_FEED_ID);
         feedTitle = getIntent().getStringExtra(EXTRA_FEED_TITLE);
+        setOverrideTitleEnabled(false);
     }
 
 
