@@ -28,6 +28,7 @@
     <color name="colorControlNormal">#000000</color>
     <color name="colorAccent">#ffffff</color>
     <color name="transparent">#00000000</color>
+    <color name="immersive_bars">#ff292929</color>
 
     <color name="tab_indicator_color">#de000000</color>
 

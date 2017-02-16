@@ -28,6 +28,9 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorControlNormal">@color/colorControlNormal</item>
         <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">@color/immersive_bars
+        </item>
         <item name="android:windowLightStatusBar"
             tools:targetApi="m">true
         </item>
