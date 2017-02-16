@@ -19,7 +19,8 @@
   ~ along with rebase-android. If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="?attr/colorControlHighlight">
 
     <item android:id="@android:id/mask">
@@ -28,13 +29,9 @@
 
     <item>
         <shape android:shape="rectangle">
-            <corners android:radius="4dp"/>
-            <solid android:color="@color/item_normal"/>
-        </shape>
-    </item>
-
-    <item android:top="4dp">
-        <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="@dimen/item_radius"
+                android:topRightRadius="@dimen/item_radius"/>
             <solid android:color="@color/item_normal"/>
         </shape>
     </item>
