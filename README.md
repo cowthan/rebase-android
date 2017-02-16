@@ -26,7 +26,5 @@ That's all. You're good to go!
 
 # 开源协议
 
-```
 Rebase Android 基于 GPL-3.0 开源协议，在使用本项目代码的之前请确保你了解这个协议。
 详细内容参见：https://github.com/drakeet/rebase-android/blob/master/LICENSE
-```
