@@ -2,6 +2,8 @@
 
 ![](app/src/main/res/drawable-nodpi/ic_rebase_flat_w192.png)
 
+注：本项目还没正式公开或发布，仍然处于建设中。
+
 ### How to Contribute
 
 Just use the **DrakeetAndroid([drakeet_style.zip](code_style.zip))** to keep the code style consistent.
