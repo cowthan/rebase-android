@@ -9,6 +9,8 @@
 - 服务端源代码(Rebase Server): https://github.com/drakeet/rebase-server
 - API 文档(Rebase API): https://github.com/drakeet/rebase-api
 
+![](http://ww1.sinaimg.cn/large/86e2ff85gy1fcrj326ngyj218i0x0102)
+
 ## 结构
 
 Rebase 采用了极简而精巧的结构、包设计，令每个人都能轻易参与和阅读。采用 `api` / `app` / `web` 三层结构：
@@ -18,10 +20,6 @@ Rebase 采用了极简而精巧的结构、包设计，令每个人都能轻易�
 ### How to Contribute
 
 请使用 **DrakeetAndroid([drakeet_style.zip](code_style.zip))** 代码风格配置文件，以保持统一。提交 Pull Request 请确保你的格式没有任何问题，包括该有的各种空格。
-
-That's all. You're good to go!
-
-![](http://ww1.sinaimg.cn/large/86e2ff85gy1fcrj326ngyj218i0x0102)
 
 ## 其他
 
