@@ -15,3 +15,10 @@ That's all. You're good to go!
 这个项目将在 README 优先使用中文。目前处于第一个公开版本，尽管如此，它仍然经过精心设计和编码，极力追求简单直观，采用原生模式开发，没有很绕的关系，做了适当而不复杂的分层，继承关系克制，能组合的组合，能内聚的尽量内聚。布局文件十分讲究，styles、values 分明，代码干净、格式一丝不苟，易读易协作，可拷贝可复用。
 
 如果你有任何问题或提供工作方面的机会，请提 issue 或致信我的邮箱 drakeet.me@gmail.com
+
+# 开源协议
+
+```
+Rebase Android 基于 GPL-3.0 开源协议，在使用本项目代码的之前请确保你了解这个协议。
+详细内容参见：https://github.com/drakeet/rebase-android/blob/master/LICENSE
+```
