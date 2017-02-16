@@ -58,12 +58,50 @@ android {
             applicationIdSuffix ".debug"
             addManifestPlaceholders([APP_NAME: "@string/rebase_name_debug"])
         }
+
         release {
             debuggable false
             minifyEnabled true
             shrinkResources true
             signingConfig signingConfigs.release
             proguardFiles 'proguard-common.pro', 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        def fileName = "Rebase_v${defaultConfig.versionName}_${variant.productFlavors[0].name}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+
+        productFlavors {
+            Xiaomi {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Xiaomi"]
+            }
+            Baidu {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Baidu"]
+            }
+            Wandoujia {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Wandoujia"]
+            }
+            fir {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fir"]
+            }
+            GooglePlay {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "GooglePlay"]
+            }
+            Smartisan {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Smartisan"]
+            }
+            KuAn {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "KuAn"]
+            }
+            QQ {
+                manifestPlaceholders = [UMENG_CHANNEL_VALUE: "QQ"]
+            }
         }
     }
 
