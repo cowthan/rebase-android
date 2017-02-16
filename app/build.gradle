@@ -46,9 +46,9 @@ android {
         }
         release {
             storeFile releaseKey
-            storePassword project.hasProperty('XIANDU_STOREPASS') ? XIANDU_STOREPASS : ''
-            keyAlias project.hasProperty('XIANDU_KEYALIAS') ? XIANDU_KEYALIAS : ''
-            keyPassword project.hasProperty('XIANDU_KEYPASS') ? XIANDU_KEYPASS : ''
+            storePassword project.hasProperty('REBASE_STOREPASS') ? REBASE_STOREPASS : ''
+            keyAlias project.hasProperty('REBASE_KEYALIAS') ? REBASE_KEYALIAS : ''
+            keyPassword project.hasProperty('REBASE_KEYPASS') ? REBASE_KEYPASS : ''
         }
     }
 
